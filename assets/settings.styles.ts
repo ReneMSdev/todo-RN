@@ -86,7 +86,6 @@ export const createSettingsStyles = (colors: ColorScheme) => {
       justifyContent: 'center',
       alignItems: 'center',
     },
-    statInfo: {},
     statNumber: {
       fontSize: 28,
       fontWeight: '800',
