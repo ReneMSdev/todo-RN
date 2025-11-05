@@ -1,4 +1,5 @@
 import { createHomeStyles } from '@/assets/home.styles'
+import Header from '@/components/Header'
 import useTheme from '@/hooks/useTheme'
 import { LinearGradient } from 'expo-linear-gradient'
 import { StatusBar, Text, TouchableOpacity } from 'react-native'
@@ -15,7 +16,7 @@ export default function Index() {
     >
       <StatusBar barStyle={colors.statusBarStyle} />
       <SafeAreaView style={homeStyles.safeArea}>
-        <Text style={homeStyles.title}>SQUAB A DAT HEEB</Text>
+        <Header />
         <TouchableOpacity onPress={toggleDarkMode}>
           <Text style={homeStyles.editButtonText}>Toggle Color Mode</Text>
         </TouchableOpacity>
